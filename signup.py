@@ -18,7 +18,6 @@ class User():
                     }
 
         user_db.append(user_data)
-
-me = User('sanya','ken',123,'LF')
+me = User(print(user_db)
+'sanya','ken',123,'LF')
 me.signup()
-print(user_db)
