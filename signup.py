@@ -1,6 +1,12 @@
-user_db = []
+user_db = [] #list to hold users
 
 class User():
+    """
+    Class to create the user object
+
+    :params email, name, password, role:
+
+    """
     def __init__(self,email,name,password,role):
         self.email = email
         self.name = name
@@ -9,6 +15,9 @@ class User():
         self.logged_in = False
 
     def signup(self):
+        """
+        Method to signup a user
+        """
         user_data = {
                         'user_email':self.email,
                         'user_name':self.name,
@@ -18,6 +27,4 @@ class User():
                     }
 
         user_db.append(user_data)
-me = User(print(user_db)
-'sanya','ken',123,'LF')
-me.signup()
+
